@@ -1,0 +1,40 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Georgia', serif;
+    background-color: #f8f1e5;
+    color: #333;
+}
+
+.header {
+    height: 60vh;
+    background: url('https://source.unsplash.com/1600x900/?books,library') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.book-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.book-box:hover {
+    transform: scale(1.05);
+}
+
+.genre-box {
+    background: #e67e22;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.genre-box:hover {
+    background: #d35400;
+}
